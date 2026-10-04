@@ -1,0 +1,7 @@
+Policy,Capacity,Phase1_Hits,Phase1_Faults,Phase1_HitRatio_%,Phase2_Hits,Phase2_Faults,Phase2_HitRatio_%,Total_Hits,Total_Faults,Overall_HitRatio_%,Degradation_%
+FIFO,16,2321,679,77.37,957,2043,31.9,3278,2722,54.63,45.47
+LRU,16,2485,515,82.83,1078,1922,35.93,3563,2437,59.38,46.9
+Optimal (Belady),16,2762,238,92.07,1704,1296,56.8,4466,1534,74.43,35.27
+Learned (Logistic),16,2405,595,80.17,436,2564,14.53,2841,3159,47.35,65.63
+Learned (Tree),16,2371,629,79.03,492,2508,16.4,2863,3137,47.72,62.63
+Adaptive-Hybrid,16,2485,515,82.83,1078,1922,35.93,3563,2437,59.38,46.9

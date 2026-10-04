@@ -1,0 +1,36 @@
+CSE-307 Term Paper - Bonus Track: Sample Natural Language Explanations
+===========================================================================
+
+--- HIGH CONFIDENCE DECISIONS ---
+[High confidence (0.88)] Evicted Page 60 at tick 5011. Page 60 exhibits strong eviction indicators (idle for 1 ticks, lifetime frequency of 1, cache age 1), significantly exceeding contender Page 18 (idle 83 ticks, frequency 34). Ground-truth Belady agreement: YES.
+
+[High confidence (0.88)] Evicted Page 74 at tick 5010. Page 74 exhibits strong eviction indicators (idle for 1 ticks, lifetime frequency of 1, cache age 1), significantly exceeding contender Page 18 (idle 82 ticks, frequency 34). Ground-truth Belady agreement: NO.
+
+[High confidence (0.88)] Evicted Page 57 at tick 5506. Page 57 exhibits strong eviction indicators (idle for 1 ticks, lifetime frequency of 1, cache age 1), significantly exceeding contender Page 15 (idle 70 ticks, frequency 48). Ground-truth Belady agreement: YES.
+
+[High confidence (0.88)] Evicted Page 68 at tick 5009. Page 68 exhibits strong eviction indicators (idle for 1 ticks, lifetime frequency of 1, cache age 1), significantly exceeding contender Page 18 (idle 81 ticks, frequency 34). Ground-truth Belady agreement: YES.
+
+[High confidence (0.88)] Evicted Page 107 at tick 5505. Page 107 exhibits strong eviction indicators (idle for 1 ticks, lifetime frequency of 1, cache age 1), significantly exceeding contender Page 15 (idle 69 ticks, frequency 48). Ground-truth Belady agreement: YES.
+
+--- MODERATE CONFIDENCE DECISIONS ---
+[Moderate confidence (0.75)] Evicted Page 6 at tick 1891. Page 6 selected over Page 5 due to higher inactivity (1 vs 6 ticks), though access frequencies are comparable (1 vs 79). Ground-truth Belady agreement: YES.
+
+[Moderate confidence (0.75)] Evicted Page 4 at tick 2188. Page 4 selected over Page 5 due to higher inactivity (8 vs 3 ticks), though access frequencies are comparable (1 vs 93). Ground-truth Belady agreement: NO.
+
+[Moderate confidence (0.75)] Evicted Page 26 at tick 1940. Page 26 selected over Page 8 due to higher inactivity (1 vs 3 ticks), though access frequencies are comparable (1 vs 66). Ground-truth Belady agreement: YES.
+
+[Moderate confidence (0.75)] Evicted Page 19 at tick 2101. Page 19 selected over Page 11 due to higher inactivity (8 vs 6 ticks), though access frequencies are comparable (1 vs 64). Ground-truth Belady agreement: YES.
+
+[Moderate confidence (0.75)] Evicted Page 10 at tick 2338. Page 10 selected over Page 11 due to higher inactivity (8 vs 3 ticks), though access frequencies are comparable (2 vs 70). Ground-truth Belady agreement: NO.
+
+--- LOW CONFIDENCE DECISIONS (CLOSE MARGINS) ---
+[Low confidence (close margin) (0.50)] Evicted Page 4 at tick 170. Marginal distinction between Page 4 and Page 1. Model identifies similar aging profiles (9 vs 166 ticks); eviction relies primarily on recent reuse interval (1 vs 2). Ground-truth Belady agreement: YES.
+
+[Low confidence (close margin) (0.50)] Evicted Page 6 at tick 154. Marginal distinction between Page 6 and Page 7. Model identifies similar aging profiles (22 vs 145 ticks); eviction relies primarily on recent reuse interval (18 vs 2). Ground-truth Belady agreement: YES.
+
+[Low confidence (close margin) (0.50)] Evicted Page 13 at tick 76. Marginal distinction between Page 13 and Page 3. Model identifies similar aging profiles (5 vs 61 ticks); eviction relies primarily on recent reuse interval (1 vs 14). Ground-truth Belady agreement: YES.
+
+[Low confidence (close margin) (0.50)] Evicted Page 42 at tick 82. Marginal distinction between Page 42 and Page 6. Model identifies similar aging profiles (6 vs 61 ticks); eviction relies primarily on recent reuse interval (1 vs 6). Ground-truth Belady agreement: NO.
+
+[Low confidence (close margin) (0.50)] Evicted Page 20 at tick 258. Marginal distinction between Page 20 and Page 3. Model identifies similar aging profiles (12 vs 243 ticks); eviction relies primarily on recent reuse interval (1 vs 2). Ground-truth Belady agreement: YES.
+
